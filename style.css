@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    border-top: 5px solid blue;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainheader {
+    background-color: rgb(228, 201, 166);
+    padding: 5px;
+}
+
+.headline {
+    float: left;
+}
+
+.anchors {
+    float: right;
+    margin-top: 6px;
+}
+
+.empty {
+    clear: both;
+}
+
+nav a {
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+    font-weight: bolder;
+}
+
+.author {
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.authorname {
+    margin-top: 15px;
+}
+
+.mag-image {
+    margin-top: 30px;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+li {
+    list-style: none;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+h2, h4 {
+    color: rgb(4, 180, 151);
+    margin-top: 20px;
+}
+
+.main-article {
+    width: 860px;
+    float: left;
+}
+
+.related {
+    background-color: antiquewhite;
+    width: 300px;
+    float: right;
+    margin-top: 20px;
+    height: 800px;
+    border-top: 6px solid orangered;
+    border-bottom: 6px solid orangered;
+    padding-left: 8px;
+}
+
+.related-head {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer {
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
